@@ -10,8 +10,7 @@ var $longitude;
             $('.country').html(location.country_name);
             $latitude = location.latitude;
             $longitude = location.longitude; 
-            console.log($latitude);
-            console.log($longitude);
+           
             
          $.ajax({
 

@@ -118,7 +118,10 @@ a:focus {
 }
 
 .description {
-	
+	font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 50px;
+    letter-spacing: .05em;
 }
 
 .temp-info {
@@ -126,13 +129,13 @@ a:focus {
 }
 
 .refresh:active {
-	color: black;
+  color: #fff;
 }
 
 .refresh {
-	color: black;
+  color: #fff;
 }
 
 .refresh:hover {
-	color: #fff;
+  color: rgba(255,255,255,0.7);
 }
