@@ -45,9 +45,9 @@ $(function(){
   
              if (!$(this).hasClass('active')){
                $('a').removeClass('active');
-               var temp = $('.temperature').html();
+               var temp = $('.temperature-value').html();
   
-              $('.temperature').html(Math.round(((temp - 32) / 1.8) * 100) / 100); 
+              $('.temperature-value').html(Math.round(((temp - 32) / 1.8) * 100) / 100); 
   
   
               $(this).addClass('active');
@@ -59,9 +59,9 @@ $(function(){
              
              if (!$(this).hasClass('active')){
                $('a').removeClass('active');
-               var temp = $('.temperature').html();
+               var temp = $('.temperature-value').html();
   
-              $('.temperature').html(Math.round(((1.8 * temp) + 32)*100)/100); 
+              $('.temperature-value').html(Math.round(((1.8 * temp) + 32)*100)/100); 
   
   
               $(this).addClass('active');
