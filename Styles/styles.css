@@ -29,6 +29,24 @@ font-size: 75px;
 text-align: center;
 }
 
+@media only screen and (max-width: 900px){
+  .temperature-value {
+    font-size: 66px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+  .temperature-value {
+    font-size: 56px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+  .temperature-value {
+    font-size: 42px;
+    }
+}
+
 .temperature-unit-box {
   flex: 1;
   font-size: 25px;
@@ -37,9 +55,33 @@ text-align: center;
   justify-content: flex-end;
 }
 
+@media only screen and (max-width: 900px){
+  .temperature-unit-box {
+    font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+  .temperature-unit-box {
+    font-size: 18px;
+    }
+}
+
 .temperature-units {
   margin-left: 13px;
   padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px){
+  .temperature-units {
+    padding: 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+  .temperature-units {
+    margin: 0;
+    }
 }
 
 .temperature-units a:link, 
@@ -63,9 +105,28 @@ text-align: center;
   align-items: center;
 }
 
+@media only screen and (max-width: 900px){
+  .description-box {
+    flex: 0.5;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .description-box {
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .description-box {
+    flex: 0.5;
+  }
+}
+
 .description{
   text-transform: uppercase;
   font-size: 20px;
+  margin: 0;
 }
 
 .icon-box {
@@ -74,6 +135,33 @@ text-align: center;
   justify-content: center;
   align-items: center;
   letter-spacing: 1.4px;
+}
+
+@media only screen and (max-width: 700px){
+  .icon-box {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .country {
+    font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+  .details p {
+    font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    }
 }
 
 .fa {
