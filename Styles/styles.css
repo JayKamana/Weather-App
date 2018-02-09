@@ -5,6 +5,7 @@ html, body {
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
+  color: #ebebeb;
 }
 .weather-box {
  margin: 100px auto;
@@ -166,6 +167,10 @@ text-align: center;
 
 .fa {
   color: #fff;
+}
+
+.refresh-box {
+  text-align: center;
 }
 
 .refresh:hover {
